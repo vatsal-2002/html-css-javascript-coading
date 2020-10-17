@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>box model</title>
+	 <style>
+	 	* {
+	 		box-sizing: border-box;
+	 		margin: 0;
+	 		padding: 0;
+	 	}
+	 	body{
+	 		background: #e6cbf8;
+	 	}
+	 	.container{
+	 		background-color: burlywood;
+	 		border: 3px solid darkblue;
+/*	 		padding top: 79px;
+	 		padding-bottom: 79px;
+	 		padding-left: 34px;*/
+
+	 		/*padding/margine = top right buttom left*/
+	 		/*    padding: 23px 56px 6px 78px;       */
+
+			/*padding y(top/buttom) x(left/right)*/
+			padding: 34px 19px;
+			margin: 14px 19px;
+			border-radius: 23px;
+			width: 533px;
+			box-sizing: border-box;
+	 	}
+
+	 </style>
+</head>
+<body>
+
+	<div class="container">
+		<h2>This is my first heading</h2>
+		<p id="first"> This is my first box model </p>
+	</div>
+
+	<div class="container">
+		<h2>This is my second heading</h2>
+		<p id="second"> This is my first box model </p>
+	</div>
+
+	<div class="container">
+		<h2>This is my third heading</h2>
+		<p id="third"> This is my first box model </p>
+	</div>
+
+</body>
+</html>.
